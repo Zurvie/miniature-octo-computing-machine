@@ -5601,7 +5601,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:default_styling
 type: number
 label: Hide despawn timer for items below this value
-group: Value-Based Style Settings
+group: Hide Below Style Settings
 */
 #define VAR_GLOBAL_DESPAWN_TIMER_MINIMUM_VALUE 0
 
