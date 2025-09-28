@@ -5556,7 +5556,7 @@ exampleItem: Rune platebody
 /*@ define:input:filtering
 type: number
 label: Hide items below this value
-group: Value-Based
+group: Hide Below Settings
 */
 #define VAR_GLOBAL_MINIMUM_VALUE 0
 
@@ -5567,7 +5567,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && va
 /*@ define:input:filtering
 type: number
 label: Hide stackable items below this value
-group: Value-Based
+group: Hide Below Settings
 */
 #define VAR_GLOBAL_STACKABLE_MINIMUM_VALUE 0
 
@@ -5578,7 +5578,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && (s
 /*@ define:input:filtering
 type: number
 label: Hide non-stackable items below this value
-group: Value-Based
+group: Hide Below Settings
 */
 #define VAR_GLOBAL_NON_STACKABLE_MINIMUM_VALUE 0
 
@@ -5589,7 +5589,7 @@ apply ((tradeable:true || name:CONST_GLOBAL_TRADEABLE_NON_TRADEABLE_ITEMS) && st
 /*@ define:input:default_styling
 type: number
 label: Hide prices for items below this value
-group: Value-Based Style Settings
+group: Hide Below Style Settings
 */
 #define VAR_GLOBAL_SHOW_PRICES_MINIMUM_VALUE 5000
 
